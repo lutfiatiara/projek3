@@ -1,0 +1,72 @@
+/* index */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+
+
+.tambah{  
+  background-color: rgb(60, 60, 220);
+  color: rgb(231, 241, 241);
+  width: 100pxpx;
+  font-size: 24px;
+
+
+}
+.container{  
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.judul_cttn{  
+  padding-top: 10px;  
+}
+
+.deskripsi_cttn{  
+  padding-left: 100px;
+} 
+
+
+/* tambah */
+.textarea{  
+  height: 200px;  
+  cols="50";
+}
+
+/* home */
+  
+/* Menghilangkan garis bawah pada link */
+.catatan-link {
+  text-decoration: none;   /* Menghilangkan underline */
+  color: black;          /* Menggunakan warna teks yang sama dengan elemen induk */
+  display: block;          /* Membuat seluruh div menjadi area klik */
+}
+
+/* Styling untuk div catatan */
+.catatan {
+  border-radius: 20px;
+  border: 1px solid #ccc;      /* Memberi border pada div */
+  padding: 15px;                /* Memberi padding untuk spasi dalam div */
+  margin: 10px 0;               /* Memberi jarak antar catatan */
+  cursor: pointer;             /* Menunjukkan kursor tangan saat hover */
+  background-color: #d6d3de;   /* Memberi latar belakang pada div */
+  transition: background-color 0.3s ease; /* Efek transisi untuk perubahan warna */
+}
